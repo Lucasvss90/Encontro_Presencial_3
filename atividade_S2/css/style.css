@@ -1,0 +1,69 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+ 
+
+body{
+    background-color: rgb(53, 42, 42);
+}
+.container{    
+    margin: 140px;
+    margin-left: 450px;
+    padding: 2px;
+    border: 2px solid rgb(47, 0, 255) ;
+    border-radius: 2%;
+    height: 400px;
+    width: 500px;
+    background-image: url(/image/download.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;    
+    transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.title{
+    font-size: 3rem;
+    color: #fff;
+    padding-top: 30px;
+    margin: 30px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input{
+    margin: 30px;
+    color: #fff;
+}
+
+#nome #peso #altura{
+    color: black;
+}
+
+#calcular{
+    background-color: blue;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10%;
+    padding: 7px;
+    margin-top: 50px;
+}
+
+.result{
+    margin: 25px;
+    text-decoration: solid;
+    font-size: medium;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    width: 450px;
+}
